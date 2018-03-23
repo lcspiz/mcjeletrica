@@ -65,3 +65,52 @@ Route::get('fornecedor/pesquisa/', [
 		'uses' => 'FornecedoresController@search',
 		'as' => 'fornecedor.pesquisa'
 ]);
+
+//rotas de obras
+
+Route::get('obras/', [
+
+		'uses' => 'ObrasController@index',
+		'as' => 'obras'
+]);
+
+Route::post('obras/store', [
+		'uses' => 'ObrasController@store',
+		'as' => 'obras.store'
+]);
+
+Route::get('obras/create', [
+
+		'uses' => 'ObrasController@create',
+		'as' => 'obras.create'
+]);
+
+Route::get('obras/edit/{id}', [
+
+		'uses' => 'ObrasController@edit',
+		'as' => 'obras.edit'
+]);
+
+Route::post('obras/update/{id}', [
+
+		'uses' => 'ObrasController@update',
+		'as' => 'obras.update'
+]);
+
+Route::get('obras/delete/{id}', [
+
+		'uses' => 'ObrasController@destroy',
+		'as' => 'obras.delete'
+]);
+
+Route::get('obras/search/', [
+
+		'uses' => 'ObrasController@searchMatch',
+		'as' => 'obras.searchMatch'
+]);
+
+Route::get('obras/pesquisa/', [
+
+		'uses' => 'ObrasController@search',
+		'as' => 'obras.pesquisa'
+]);

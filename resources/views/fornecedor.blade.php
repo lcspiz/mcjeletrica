@@ -15,11 +15,11 @@
 }	
 </style>
 
-	<div class="container">
+<div class="container">
 	<div class="panel panel-default">
 	<div class="panel-heading"><h3 class="panel-title pull-left">
 					Manutenção de Fornecedores</h3>
-	 <a href="{{route('fornecedor.create')}}" type="button" class="btn btn-default pull-right">Novo Fornecedor</a>
+	 <a href="{{route('fornecedor.create')}}" type="button" class="btn btn-success pull-right">Novo Fornecedor</a>
         <div class="clearfix"></div>
     </div>
 <p></p>

@@ -114,7 +114,7 @@
           <ul class="dropdown-menu">
             <li class="dropdown-toggle"><a class="test" tabindex="-1" href="#">Cotações</a>
               <li class="dropdown-toggle"><a class="test" tabindex="-1" href="{{route('fornecedores')}}">Cadastro de Fornecedor</a> </li>
-              <li class="dropdown-toggle"><a class="test" tabindex="-1" href="#">Cadastro de Obra</a>
+              <li class="dropdown-toggle"><a class="test" tabindex="-1" href="{{route('obras')}}">Cadastro de Obra</a>
               <li class="dropdown-toggle"><a class="test" tabindex="-1" href="#">Pedidos</a>
             </li>
           </ul>
